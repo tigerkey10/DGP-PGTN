@@ -19,3 +19,7 @@ End-to-End Interpretable Disease-Gene Association Prediction with Parallel Graph
 - `edges_d.pkl`: disease heterogeneous network
 - `disease_feature.npy`: node feature of disease heterogeneous networks
 - `result.npy`: disease-gene association
+
+
+#### prediction server for the broader reach of the research paper. 
+It is available on 175.178.9.163, which contains gene_id, disease_id, true label and our predict.
