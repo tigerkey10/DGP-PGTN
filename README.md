@@ -8,9 +8,9 @@ End-to-End Interpretable Disease-Gene Association Prediction with Parallel Graph
 ### Code and data
 
 #### 
-- `dg_model.py`: PGTN model
+- `dg_model_sparse.py`: PGTN model
 - `gcn.py`: GCN model
-- `main.py`: use the dataset to run DGP-PGTN
+- `dg_main_sparse.py`: use the dataset to run DGP-PGTN
 
 
 #### data sample `/data` directory
