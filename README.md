@@ -22,4 +22,4 @@ End-to-End Interpretable Disease-Gene Association Prediction with Parallel Graph
 
 
 #### prediction server for the broader reach of the research paper. 
-It is available on 175.178.9.163, which contains gene_id, disease_id, true label and our predict.
+[Disease-gene association predict model](175.178.9.163), which contains gene_id, disease_id, true label and our predict.
