@@ -20,6 +20,7 @@ End-to-End Interpretable Disease-Gene Association Prediction with Parallel Graph
 - `disease_feature.npy`: node feature of disease heterogeneous networks
 - `result.npy`: disease-gene association
 
+#### We train our model on a Linux terminal on Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz, 8 Core(s), 32 Logical Processor(s).
 
 #### prediction server for the broader reach of the research paper. 
 - [Disease-gene association prediction server](http://nefunlp.cn/), which contains gene_id, disease_id, true label and our predict.
