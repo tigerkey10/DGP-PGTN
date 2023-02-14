@@ -17,24 +17,6 @@ The essential python packages were listed in ```requirements.txt```.
 - `dg_main_sparse.py`: use the dataset to run DGP-PGTN
 
 
-#### Data sample `/data` directory.  
-The file format of the input gene and disease heterogeneous networks is “.pickle”. The data type in the file is a list and the sparse matrices of all association relationships are stored in the list.
-
-For examlpe in the gene heterogeneous networks ```edges_g.pkl```:
-```
-five types of edges in the gene heterogeneous:	
-gene-gene	<with 1051038 stored elements in Compressed Sparse Row format> (number of associations)
-gene-GO		<with 290214 stored elements in Compressed Sparse Row format> (number of associations)
-GO-gene		<with 290214 stored elements in Compressed Sparse Row format> (number of associations)
-gene-HPO	<with 182144 stored elements in Compressed Sparse Row format> (number of associations)
-HPO-gene	<with 182144 stored elements in Compressed Sparse Row format> (number of associations)
-```
-- `edges_g.pkl`: gene heterogeneous network, which contains five edge types.
-- `gene_feature.npy`: node feature of gene heterogeneous networks
-- `edges_d.pkl`: disease heterogeneous network, which contains three edge types.
-- `disease_feature.npy`: node feature of disease heterogeneous networks
-- `result.npy`: disease gene dataset(10000 disease-gene assoications) contains three columns: gene_id, disease_id and their true label.
-
 ##### Statistics of gene and disease heterogeneous networks
 | Network | Type |   Name | Number |
 | :-------------: | :----------: |:------------: |:------------: |
@@ -48,6 +30,25 @@ HPO-gene	<with 182144 stored elements in Compressed Sparse Row format> (number o
 |  |       |     gene    | 21,354  |
 | |  relation  | disease-disease     | 13,444|
 | |  relation  | disease-gene     | 86,297|
+
+
+#### Data sample `/data` directory.  
+The file format of the input gene and disease heterogeneous networks is “.pickle”. The data type in the file is a list and the sparse matrices of all association relationships are stored in the list.
+
+For examlpe in the gene heterogeneous networks ```edges_g.pkl```:
+```
+five types of edges in the gene heterogeneous:	
+gene-gene	<with 1051038 stored elements in Compressed Sparse Row format> (number of associations)
+gene-GO		<with 290214 stored elements in Compressed Sparse Row format> (number of associations)
+GO-gene		<with 290214 stored elements in Compressed Sparse Row format> (number of associations)
+gene-HPO	<with 182144 stored elements in Compressed Sparse Row format> (number of associations)
+HPO-gene	<with 182144 stored elements in Compressed Sparse Row format> (number of associations)
+```
+- `edges_g.pkl`: gene heterogeneous network, which contains five edge types.
+- `gene_feature.npy`: node feature of gene heterogeneous networks, which contains 32-dimensional features of 68061 nodes in the gene heterogeneous network
+- `edges_d.pkl`: disease heterogeneous network, which contains three edge types.
+- `disease_feature.npy`: node feature of disease heterogeneous networks,  which contains 32-dimensional features of 19182 nodes in the gene heterogeneous network
+- `result.npy`: disease gene dataset(10000 disease-gene assoications) contains three columns: gene_id, disease_id and their true label.
 
 
 
