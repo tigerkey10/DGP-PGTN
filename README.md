@@ -1,5 +1,5 @@
 ## DGP-PGTN:
-End-to-End Interpretable Disease-Gene Association Prediction with Parallel Graph Transformer Networks
+#### End-to-End Interpretable Disease-Gene Association Prediction with Parallel Graph Transformer Networks
 
 ### Run
 
