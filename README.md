@@ -38,11 +38,11 @@ The file format of the input gene and disease heterogeneous networks is “.pick
 For examlpe in the gene heterogeneous networks ```edges_g.pkl```:
 ```
 five types of edges in the gene heterogeneous:	
-gene-gene	<with 1051038 stored elements in Compressed Sparse Row format> (gene-gene binary(0 or 1) matrix)
-gene-GO		<with 290214 stored elements in Compressed Sparse Row format> (gene-GO binary(0 or 1) matrix)
-GO-gene		<with 290214 stored elements in Compressed Sparse Row format> (GO-gene binary(0 or 1) matrix)
-gene-HPO	<with 182144 stored elements in Compressed Sparse Row format> (gene-HPO binary(0 or 1) matrix)
-HPO-gene	<with 182144 stored elements in Compressed Sparse Row format> (HPO-gene binary(0 or 1) matrix)
+gene-gene	<with 1051038 stored elements in Compressed Sparse Row format> [gene-gene binary(0 or 1) matrix]
+gene-GO		<with 290214 stored elements in Compressed Sparse Row format> [gene-GO binary(0 or 1) matrix]
+GO-gene		<with 290214 stored elements in Compressed Sparse Row format> [GO-gene binary(0 or 1) matrix]
+gene-HPO	<with 182144 stored elements in Compressed Sparse Row format> [gene-HPO binary(0 or 1) matrix]
+HPO-gene	<with 182144 stored elements in Compressed Sparse Row format> [HPO-gene binary(0 or 1) matrix]
 ```
 - `edges_g.pkl`: gene heterogeneous network, which contains five edge types.
 - `gene_feature.npy`: node feature of gene heterogeneous networks, which contains 32-dimensional features of 68061 nodes in the gene heterogeneous network
