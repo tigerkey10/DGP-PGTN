@@ -5,7 +5,7 @@ End-to-End Interpretable Disease-Gene Association Prediction with Parallel Graph
 
 To predict disease-gene association, run:
 ```
-python dg_main_sparse.py --epoch 25 --node_dim 32 --lr 0.01 --weight_decay 0.1
+$ python dg_main_sparse.py --epoch 25 --node_dim 32 --lr 0.01 --weight_decay 0.1
 ```
 
 ### Code and data
