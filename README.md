@@ -34,7 +34,7 @@ Disease and gene heterogeneous networks are constructed from five data resources
 - `dg_main_sparse.py`: use the dataset to run DGP-PGTN
 
 
-#### Data sample `/data` directory.  
+#### `data/` directory.  
 The file format of the input gene and disease heterogeneous networks is “.pickle”. The data type in the file is a list and the sparse matrices of all association relationships are stored in the list.
 
 For examlpe in the gene heterogeneous networks ```edges_g.pkl```:
