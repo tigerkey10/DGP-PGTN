@@ -36,7 +36,7 @@ HPO-gene	<with 182144 stored elements in Compressed Sparse Row format>
 - `disease_feature.npy`: node feature of disease heterogeneous networks
 - `result.npy`: disease gene dataset(10000 disease-gene assoications) contains three columns: gene_id, disease_id and their assoications
 
-### Train DGP-PGTN on a Linux terminal and Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz, 8 Core(s), 32 Logical Processor(s).
+### Train DGP-PGTN on a Linux terminal and Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz, 8 Core(s), 32 Logical Processor(s)
 
-### Disease-gene assoication prediction server of the research paper. 
+### Disease-gene assoication prediction server of the research paper
 - http://nefunlp.cn/
