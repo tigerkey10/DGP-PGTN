@@ -31,7 +31,7 @@ Disease and gene heterogeneous networks are constructed from five data resources
 - `dg_model_sparse.py`: PGTN model
 - `gcn.py`: GCN model
 - `dg_main_sparse.py`: use the dataset to run DGP-PGTN
-- 
+
 #### `data/` directory.  
 
 - `edges_g.pkl`: gene heterogeneous network, which contains five edge types.
