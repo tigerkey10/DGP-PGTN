@@ -9,23 +9,6 @@ $ python dg_main_sparse.py --epoch 25 --node_dim 32 --lr 0.01 --weight_decay 0.1
 ```
 The essential python packages were listed in ```requirements.txt```.
 
-
-### Data statistics 
-Disease and gene heterogeneous networks are constructed from five data resources, including HumanNet, Human Phenotype Ontology (HPO), Gene Ontology (GO), Disease Ontology (DO) and DisGeNet
-| Network | Type |   Name | Number |
-| :-------------: | :----------: |:------------: |:------------: |
-| gene network |  node | gene | 21,354 |
-|  |       |     GO    | 18,330  |
-| |     |   HPO      | 8,153|
-| |  relation  | gene-gene     | 1,051,038|
-| |    | gene-GO     | 290,214|
-| |    | gene-HPO     | 182,144|
-|disease network |  node  | disease     |6,453|
-|  |       |     gene    | 21,354  |
-| |  relation  | disease-disease     | 13,444|
-| |  relation  | disease-gene     | 86,297|
-
-
 ### Code and data
 
 - `dg_model_sparse.py`: PGTN model
@@ -50,6 +33,21 @@ GO-gene		<with 290214 stored elements in Compressed Sparse Row format>  [GO-gene
 gene-HPO	<with 182144 stored elements in Compressed Sparse Row format>  [gene-HPO binary(0 or 1) matrix]
 HPO-gene	<with 182144 stored elements in Compressed Sparse Row format>  [HPO-gene binary(0 or 1) matrix]
 ```
+
+### Data statistics 
+Disease and gene heterogeneous networks are constructed from five data resources, including HumanNet, Human Phenotype Ontology (HPO), Gene Ontology (GO), Disease Ontology (DO) and DisGeNet
+| Network | Type |   Name | Number |
+| :-------------: | :----------: |:------------: |:------------: |
+| gene network |  node | gene | 21,354 |
+|  |       |     GO    | 18,330  |
+| |     |   HPO      | 8,153|
+| |  relation  | gene-gene     | 1,051,038|
+| |    | gene-GO     | 290,214|
+| |    | gene-HPO     | 182,144|
+|disease network |  node  | disease     |6,453|
+|  |       |     gene    | 21,354  |
+| |  relation  | disease-disease     | 13,444|
+| |  relation  | disease-gene     | 86,297|
 
 ### Train DGP-PGTN on a Linux terminal and Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz, 8 Core(s), 32 Logical Processor(s)
 
