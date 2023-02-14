@@ -33,9 +33,6 @@ Disease and gene heterogeneous networks are constructed from five data resources
 - `gcn.py`: GCN model
 - `dg_main_sparse.py`: use the dataset to run DGP-PGTN
 
-
-
-```
 - `edges_g.pkl`: gene heterogeneous network, which contains five edge types.
 - `gene_feature.npy`: node feature of gene heterogeneous networks, which contains 32-dimensional features of 68061 nodes in the gene heterogeneous network
 - `edges_d.pkl`: disease heterogeneous network, which contains three edge types.
@@ -52,7 +49,7 @@ gene-GO		<with 290214 stored elements in Compressed Sparse Row format>  [gene-GO
 GO-gene		<with 290214 stored elements in Compressed Sparse Row format>  [GO-gene binary(0 or 1) matrix]
 gene-HPO	<with 182144 stored elements in Compressed Sparse Row format>  [gene-HPO binary(0 or 1) matrix]
 HPO-gene	<with 182144 stored elements in Compressed Sparse Row format>  [HPO-gene binary(0 or 1) matrix]
-
+```
 
 ### Train DGP-PGTN on a Linux terminal and Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz, 8 Core(s), 32 Logical Processor(s)
 
