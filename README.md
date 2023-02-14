@@ -7,7 +7,7 @@ To predict disease-gene association:
 ```
 $ python dg_main_sparse.py --epoch 25 --node_dim 32 --lr 0.01 --weight_decay 0.1
 ```
-
+the essential python packages were listed in ```requirements.txt```.
 ### Code and data
 
 #### 
