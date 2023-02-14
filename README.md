@@ -23,9 +23,9 @@ The file format of the input gene and disease heterogeneous networks is “.pick
 - `gene_feature.npy`: node feature of gene heterogeneous networks
 - `edges_d.pkl`: disease heterogeneous network
 - `disease_feature.npy`: node feature of disease heterogeneous networks
-- `result.npy`: disease-gene association
+- `result.npy`: disease-gene dataset, 
 
 ### Train DGP-PGTN on a Linux terminal and Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz, 8 Core(s), 32 Logical Processor(s).
 
 ### Prediction server for the broader reach of the research paper. 
-- [Disease-gene association prediction server](http://nefunlp.cn/)
+- http://nefunlp.cn/
