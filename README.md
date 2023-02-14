@@ -41,7 +41,6 @@ Disease and gene heterogeneous networks are constructed from five data resources
 - `result.npy`: disease gene dataset(10000 disease-gene assoications) contains three columns: gene_id, disease_id and their true label.
 
 The file format of the input gene and disease heterogeneous networks is “.pickle”. The data type in the file is a list and the sparse matrices of all association relationships are stored in the list.
-
 For examlpe in the gene heterogeneous networks ```edges_g.pkl```:
 ```
 five types of edges in the gene heterogeneous:	
