@@ -17,7 +17,7 @@ The essential python packages were listed in ```requirements.txt```.
 - `dg_main_sparse.py`: use the dataset to run DGP-PGTN
 
 
-##### Statistics of gene and disease heterogeneous networks
+#### Statistics of gene and disease heterogeneous networks
 | Network | Type |   Name | Number |
 | :-------------: | :----------: |:------------: |:------------: |
 | gene network |  node | gene | 21,354 |
