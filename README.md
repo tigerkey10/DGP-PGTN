@@ -30,11 +30,11 @@ gene-HPO	<with 182144 stored elements in Compressed Sparse Row format> (number o
 HPO-gene	<with 182144 stored elements in Compressed Sparse Row format> (number of associations)
 ```
 
-- `edges_g.pkl`: gene heterogeneous network
+- `edges_g.pkl`: gene heterogeneous network, which contains five edge types.
 - `gene_feature.npy`: node feature of gene heterogeneous networks
-- `edges_d.pkl`: disease heterogeneous network
+- `edges_d.pkl`: disease heterogeneous network, which contains three edge types.
 - `disease_feature.npy`: node feature of disease heterogeneous networks
-- `result.npy`: disease gene dataset(10000 disease-gene assoications) contains three columns: gene_id, disease_id and their assoications
+- `result.npy`: disease gene dataset(10000 disease-gene assoications) contains three columns: gene_id, disease_id and their true label.
 
 ### Train DGP-PGTN on a Linux terminal and Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz, 8 Core(s), 32 Logical Processor(s)
 
