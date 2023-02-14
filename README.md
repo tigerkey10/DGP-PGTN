@@ -13,7 +13,7 @@ End-to-End Interpretable Disease-Gene Association Prediction with Parallel Graph
 - `dg_main_sparse.py`: use the dataset to run DGP-PGTN
 
 
-#### data sample `/data` directory.  The data format of the input gene and disease heterogeneous networks is “.pickle”, which contains all the association matrices in the heterogeneous network and The data format of the input node feature of gene heterogeneous networks is “.npy”.
+#### data sample `/data` directory.  The file format of the input gene and disease heterogeneous networks is “.pickle”, the data type in the file is a list, and the sparse matrices of all association relationships are stored in the list.
 - `edges_g.pkl`: gene heterogeneous network
 - `gene_feature.npy`: node feature of gene heterogeneous networks
 - `edges_d.pkl`: disease heterogeneous network
