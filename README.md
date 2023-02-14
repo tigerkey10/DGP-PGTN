@@ -9,13 +9,6 @@ $ python dg_main_sparse.py --epoch 25 --node_dim 32 --lr 0.01 --weight_decay 0.1
 ```
 The essential python packages were listed in ```requirements.txt```.
 
-### Code and data
-
-#### 
-- `dg_model_sparse.py`: PGTN model
-- `gcn.py`: GCN model
-- `dg_main_sparse.py`: use the dataset to run DGP-PGTN
-
 
 ### Data statistics 
 Disease and gene heterogeneous networks are constructed from five data resources, including HumanNet, Human Phenotype Ontology (HPO), Gene Ontology (GO), Disease Ontology (DO) and DisGeNet
@@ -31,6 +24,14 @@ Disease and gene heterogeneous networks are constructed from five data resources
 |  |       |     gene    | 21,354  |
 | |  relation  | disease-disease     | 13,444|
 | |  relation  | disease-gene     | 86,297|
+
+
+### Code and data
+
+#### 
+- `dg_model_sparse.py`: PGTN model
+- `gcn.py`: GCN model
+- `dg_main_sparse.py`: use the dataset to run DGP-PGTN
 
 
 #### Data sample `/data` directory.  
