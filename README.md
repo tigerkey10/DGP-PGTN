@@ -22,14 +22,13 @@ The file format of the input gene and disease heterogeneous networks is “.pick
 
 For examlpe in the gene heterogeneous networks ```edges_g.pkl```:
 ```
-[<68061x68061 sparse matrix of type '<class 'numpy.int64'>'
-	with 290214 stored elements in Compressed Sparse Row format>, 
-	with 290214 stored elements in Compressed Sparse Column format>
-	with 182144 stored elements in Compressed Sparse Row format>
-	with 182144 stored elements in Compressed Sparse Column format>, <68061x68061 sparse matrix of type '<class 'numpy.int64'>'
-	with 85297 stored elements in Compressed Sparse Row format>, <68061x68061 sparse matrix of type '<class 'numpy.int64'>'
-	with 85297 stored elements in Compressed Sparse Column format>, <68061x68061 sparse matrix of type '<class 'numpy.int64'>'
-	with 1051038 stored elements in Compressed Sparse Row format>]
+five types of edges in the gene heterogeneous:	
+gene-gene	with 1051038 stored elements in Compressed Sparse Row format>
+gene-GO		with 290214 stored elements in Compressed Sparse Row format>
+GO-gene		with 290214 stored elements in Compressed Sparse Row format>
+gene-HPO	with 182144 stored elements in Compressed Sparse Row format>
+HPO-gene	with 182144 stored elements in Compressed Sparse Row format>
+
 ```
 
 - `edges_g.pkl`: gene heterogeneous network
