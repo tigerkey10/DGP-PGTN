@@ -3,7 +3,7 @@
 
 ### Quick start
 
-To predict disease-gene association:
+- Run DGP-PGTN:
 ```
 $ python dg_main_sparse.py --epoch 25 --node_dim 32 --lr 0.01 --weight_decay 0.1
 ```
