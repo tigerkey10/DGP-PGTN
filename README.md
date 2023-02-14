@@ -23,7 +23,7 @@ The file format of the input gene and disease heterogeneous networks is “.pick
 - `gene_feature.npy`: node feature of gene heterogeneous networks
 - `edges_d.pkl`: disease heterogeneous network
 - `disease_feature.npy`: node feature of disease heterogeneous networks
-- `result.npy`: disease-gene dataset, 
+- `result.npy`: disease gene dataset contains three columns: gene_id, disease_id and their assoications
 
 ### Train DGP-PGTN on a Linux terminal and Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz, 8 Core(s), 32 Logical Processor(s).
 
