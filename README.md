@@ -51,5 +51,5 @@ Disease and gene heterogeneous networks are constructed from five data resources
 
 ### Train DGP-PGTN on a Linux terminal and Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz, 8 Core(s), 32 Logical Processor(s)
 
-### Disease-gene assoication prediction service
+### To use the disease-gene assoication prediction service, please visit the following website:
 - http://nefunlp.cn/
