@@ -19,13 +19,6 @@ $ python dg_main_sparse.py --epoch 25 --node_dim 32 --lr 0.01 --weight_decay 0.1
 #### data sample `/data` directory.  The file format of the input gene and disease heterogeneous networks is “.pickle”, the data type in the file is a list and the sparse matrices of all association relationships are stored in the list.
 
 
-|  | 汇报人1 |   汇报人2 |
-| :-------------: | :----------: |:------------: |
-| 1 |  辛旦成 | 郝润龙 |
-| 2 |    卫政鑫   |     王天雨     |
-| 3|   郭子厚   |   季子扬       |
-| 4|  袁嘉伟   |   鄂梓璇   |
-| 5|   徐加宁  |   刘武勇      |
 
 - `edges_g.pkl`: gene heterogeneous network
 - `gene_feature.npy`: node feature of gene heterogeneous networks
