@@ -28,10 +28,11 @@ Disease and gene heterogeneous networks are constructed from five data resources
 
 ### Code and data
 
-#### `data/` directory.  
 - `dg_model_sparse.py`: PGTN model
 - `gcn.py`: GCN model
 - `dg_main_sparse.py`: use the dataset to run DGP-PGTN
+- 
+#### `data/` directory.  
 
 - `edges_g.pkl`: gene heterogeneous network, which contains five edge types.
 - `gene_feature.npy`: node feature of gene heterogeneous networks, which contains 32-dimensional features of 68061 nodes in the gene heterogeneous network
