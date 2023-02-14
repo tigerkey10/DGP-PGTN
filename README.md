@@ -28,7 +28,6 @@ gene-GO		<with 290214 stored elements in Compressed Sparse Row format>
 GO-gene		<with 290214 stored elements in Compressed Sparse Row format>
 gene-HPO	<with 182144 stored elements in Compressed Sparse Row format>
 HPO-gene	<with 182144 stored elements in Compressed Sparse Row format>
-
 ```
 
 - `edges_g.pkl`: gene heterogeneous network
