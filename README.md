@@ -23,11 +23,11 @@ The file format of the input gene and disease heterogeneous networks is “.pick
 For examlpe in the gene heterogeneous networks ```edges_g.pkl```:
 ```
 five types of edges in the gene heterogeneous:	
-gene-gene	<with 1051038 stored elements in Compressed Sparse Row format>
-gene-GO		<with 290214 stored elements in Compressed Sparse Row format>
-GO-gene		<with 290214 stored elements in Compressed Sparse Row format>
-gene-HPO	<with 182144 stored elements in Compressed Sparse Row format>
-HPO-gene	<with 182144 stored elements in Compressed Sparse Row format>
+gene-gene	<with 1051038 stored elements in Compressed Sparse Row format> (number of relationships)
+gene-GO		<with 290214 stored elements in Compressed Sparse Row format> (number of relationships)
+GO-gene		<with 290214 stored elements in Compressed Sparse Row format> (number of relationships)
+gene-HPO	<with 182144 stored elements in Compressed Sparse Row format> (number of relationships)
+HPO-gene	<with 182144 stored elements in Compressed Sparse Row format> (number of relationships)
 ```
 
 - `edges_g.pkl`: gene heterogeneous network
