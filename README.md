@@ -26,5 +26,5 @@ The file format of the input gene and disease heterogeneous networks is “.pick
 
 #### Train DGP-PGTN on a Linux terminal and Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz, 8 Core(s), 32 Logical Processor(s).
 
-#### rediction server for the broader reach of the research paper. 
+#### Prediction server for the broader reach of the research paper. 
 - [Disease-gene association prediction server](http://nefunlp.cn/), which contains gene_id, disease_id, true label and our predict.
