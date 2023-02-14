@@ -19,6 +19,18 @@ The essential python packages were listed in ```requirements.txt```.
 
 #### Data sample `/data` directory.  
 The file format of the input gene and disease heterogeneous networks is “.pickle”, the data type in the file is a list and the sparse matrices of all association relationships are stored in the list.
+for examlpe in edges_g.pkl:
+```
+[<68061x68061 sparse matrix of type '<class 'numpy.int64'>'
+	with 290214 stored elements in Compressed Sparse Row format>, <68061x68061 sparse matrix of type '<class 'numpy.int64'>'
+	with 290214 stored elements in Compressed Sparse Column format>, <68061x68061 sparse matrix of type '<class 'numpy.int64'>'
+	with 182144 stored elements in Compressed Sparse Row format>, <68061x68061 sparse matrix of type '<class 'numpy.int64'>'
+	with 182144 stored elements in Compressed Sparse Column format>, <68061x68061 sparse matrix of type '<class 'numpy.int64'>'
+	with 85297 stored elements in Compressed Sparse Row format>, <68061x68061 sparse matrix of type '<class 'numpy.int64'>'
+	with 85297 stored elements in Compressed Sparse Column format>, <68061x68061 sparse matrix of type '<class 'numpy.int64'>'
+	with 1051038 stored elements in Compressed Sparse Row format>]
+```
+
 - `edges_g.pkl`: gene heterogeneous network
 - `gene_feature.npy`: node feature of gene heterogeneous networks
 - `edges_d.pkl`: disease heterogeneous network
