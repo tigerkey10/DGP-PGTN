@@ -26,7 +26,7 @@ $ python dg_main_sparse.py --epoch 25 --node_dim 32 --lr 0.01 --weight_decay 0.1
 - `disease_feature.npy`: node feature of disease heterogeneous networks
 - `result.npy`: disease-gene association
 
-#### We train our model on a Linux terminal on Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz, 8 Core(s), 32 Logical Processor(s).
+#### train DGP-PGTN on a Linux terminal on Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz, 8 Core(s), 32 Logical Processor(s).
 
 #### prediction server for the broader reach of the research paper. 
 - [Disease-gene association prediction server](http://nefunlp.cn/), which contains gene_id, disease_id, true label and our predict.
