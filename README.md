@@ -29,6 +29,20 @@ GO-gene		<with 290214 stored elements in Compressed Sparse Row format> (number o
 gene-HPO	<with 182144 stored elements in Compressed Sparse Row format> (number of associations)
 HPO-gene	<with 182144 stored elements in Compressed Sparse Row format> (number of associations)
 ```
+##### Statistics of gene and disease heterogeneous networks
+| Network | Type |   Name | Number |
+| :-------------: | :----------: |:------------: |:------------: |
+| gene network |  node | gene | 21,354 |
+|  |       |     GO    | 18,330  |
+| |     |   HPO      | 8,153|
+| |  relation  | gene-gene     | 1,051,038|
+| |    | gene-GO     | 290,214|
+| |    | gene-HPO     | 182,144|
+|disease network |  node  | disease     |6,453|
+|  |       |     gene    | 21,354  |
+| |  relation  | disease-disease     | 13,444|
+| |  relation  | disease-gene     | 86,297|
+
 
 - `edges_g.pkl`: gene heterogeneous network, which contains five edge types.
 - `gene_feature.npy`: node feature of gene heterogeneous networks
