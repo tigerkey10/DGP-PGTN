@@ -18,7 +18,7 @@ The essential python packages were listed in ```requirements.txt```.
 
 
 #### Data sample `/data` directory.  
-The file format of the input gene and disease heterogeneous networks is “.pickle”, the data type in the file is a list and the sparse matrices of all association relationships are stored in the list.
+The file format of the input gene and disease heterogeneous networks is “.pickle”. The data type in the file is a list and the sparse matrices of all association relationships are stored in the list.
 
 For examlpe in the gene heterogeneous networks ```edges_g.pkl```:
 ```
