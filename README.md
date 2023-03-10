@@ -52,5 +52,4 @@ Disease and gene heterogeneous networks are constructed from five data resources
 ### Runtime environment
 - Linux terminal and Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz, 8 Core(s), 32 Logical Processor(s)
 
-### To use the disease-gene assoication prediction service, please visit the following website:
-- http://nefunlp.cn/
+
